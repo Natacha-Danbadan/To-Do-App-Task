@@ -149,14 +149,14 @@ main{
 }
 @media (max-width: 426px) {
     #task-submit{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     header{
         padding: 1.5rem 0.5rem;
     }
     #task-input {
-        padding: 0.8rem;
-        margin-right: 0.9rem;
+        padding: 0.7rem;
+        margin-right: 0.7rem;
         font-size: 1rem;
         flex: none;
     }
@@ -167,12 +167,16 @@ main{
         font-size: 1rem;
     }
     #task-container .task {
-        padding: 0.5rem;
+        padding: 0.6rem;
     }
     #task-container .task .task-content .text {
         font-size: 0.8rem;
     }
+    
     .task .task-actions button {
         font-size: 0.8rem;
+    }
+    body{
+        background: var(--darkEl);
     }
   }
