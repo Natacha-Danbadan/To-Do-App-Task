@@ -147,3 +147,32 @@ main{
 .task .task-actions .delete {
     color: crimson;
 }
+@media (max-width: 426px) {
+    #task-submit{
+        font-size: 1rem;
+    }
+    header{
+        padding: 1.5rem 0.5rem;
+    }
+    #task-input {
+        padding: 0.8rem;
+        margin-right: 0.9rem;
+        font-size: 1rem;
+        flex: none;
+    }
+    header h1 {
+        font-size: 1.5rem;
+    }
+    .task-list h2 {
+        font-size: 1rem;
+    }
+    #task-container .task {
+        padding: 0.5rem;
+    }
+    #task-container .task .task-content .text {
+        font-size: 0.8rem;
+    }
+    .task .task-actions button {
+        font-size: 0.8rem;
+    }
+  }
